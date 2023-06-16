@@ -1,0 +1,34 @@
+/* Import Font Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Import Font End */
+
+/* Import Css Files Start */
+
+@import url(./style.css);
+@import url(./responsive.css);
+
+/* Import Css Files End */
+
+/* Main Styles Start */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #606C5D;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Main Styles End */
