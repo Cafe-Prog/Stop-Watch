@@ -1,0 +1,48 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.counter {
+    margin-bottom: 30px;
+}
+
+.counter p {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+
+.counter span {
+    margin: 0 5px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.buttons button {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    background-color: transparent;
+    border: 1px solid #FFD89C;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1rem;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+.buttons button:hover {
+    background-color: #FFD89C;
+    color: #606C5D;
+}
